@@ -1213,6 +1213,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@geist-ui/react@^2.1.4":
+  version "2.1.4"
+  resolved "https://registry.npmjs.org/@geist-ui/react/-/react-2.1.4.tgz#52c8d482ef06f5da62488dcdc92e4f950a16b915"
+  integrity sha512-ltScgRiA1BOFvj/krMrCGhd3jXxO7WkS7xBdCEyqcvKxlfvhTLZbQllvL52Uu50vKeH5sWYf+mhpaWC7izuuoA==
+  dependencies:
+    styled-jsx "3.3.0"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -10387,6 +10394,20 @@ style-loader@1.3.0:
     loader-utils "^2.0.0"
     schema-utils "^2.7.0"
 
+styled-jsx@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.npmjs.org/styled-jsx/-/styled-jsx-3.3.0.tgz#32335c1a3ecfc923ba4f9c056eeb3d4699006b09"
+  integrity sha512-sh8BI5eGKyJlwL4kNXHjb27/a/GJV8wP4ElRIkRXrGW3sHKOsY9Pa1VZRNxyvf3+lisdPwizD9JDkzVO9uGwZw==
+  dependencies:
+    "@babel/types" "7.8.3"
+    babel-plugin-syntax-jsx "6.18.0"
+    convert-source-map "1.7.0"
+    loader-utils "1.2.3"
+    source-map "0.7.3"
+    string-hash "1.1.3"
+    stylis "3.5.4"
+    stylis-rule-sheet "0.0.10"
+
 styled-jsx@^3.4.4:
   version "3.4.4"
   resolved "https://registry.npm.taobao.org/styled-jsx/download/styled-jsx-3.4.4.tgz#d5012cac2ed22be0b72e28932f3eece8d83b695c"
@@ -11119,8 +11140,10 @@ watchpack@^1.7.4:
   resolved "https://registry.npm.taobao.org/watchpack/download/watchpack-1.7.5.tgz?cache=0&sync_timestamp=1612715878017&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwatchpack%2Fdownload%2Fwatchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha1-EmfmxV4Lm1vkTCAjrtVDeiwmxFM=
   dependencies:
+    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
